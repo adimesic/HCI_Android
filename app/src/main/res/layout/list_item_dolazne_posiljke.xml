@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_gravity="top"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PošiljkaID"
+        android:id="@+id/textViewOdlaznaPosiljkaIDLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Primaoc"
+        android:id="@+id/textViewOdlaznaPrimaocLabel"
+        android:layout_below="@+id/textViewOdlaznaPosiljkaIDLabel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Datum preuzimanja"
+        android:id="@+id/textViewOdlaznaDatumPreuzimanjaLabel"
+        android:layout_below="@+id/textViewOdlaznaPrimaocLabel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Datum dostave"
+        android:id="@+id/textViewOdlaznaDatumDostaveLabel"
+        android:layout_below="@+id/textViewOdlaznaDatumPreuzimanjaLabel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Komanija"
+        android:id="@+id/textViewOdlaznaKompanijaLabel"
+        android:layout_below="@+id/textViewOdlaznaDatumDostaveLabel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vozač"
+        android:id="@+id/textViewVozacLabel"
+        android:layout_below="@+id/textViewOdlaznaKompanijaLabel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="### pošiljke"
+        android:id="@+id/textViewOdlaznaPosiljkaID"
+        android:layout_above="@+id/textViewOdlaznaPrimaocLabel"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ime i prezime"
+        android:id="@+id/textViewOdlaznaPrimaoc"
+        android:layout_below="@+id/textViewOdlaznaPosiljkaID"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="dd.mm.yyyy"
+        android:id="@+id/textViewOdlaznaDatumPreuzimanja"
+        android:layout_below="@+id/textViewOdlaznaPrimaoc"
+        android:layout_alignEnd="@+id/textViewOdlaznaPosiljkaID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="dd.mm.yyyy"
+        android:id="@+id/textViewOdlaznaDatumDostave"
+        android:layout_below="@+id/textViewOdlaznaDatumPreuzimanja"
+        android:layout_alignStart="@+id/textViewOdlaznaDatumPreuzimanja" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Naziv"
+        android:id="@+id/textViewOdlaznaKompanija"
+        android:layout_below="@+id/textViewOdlaznaDatumDostave"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ime i Prezime"
+        android:id="@+id/textViewVozac"
+        android:layout_below="@+id/textViewOdlaznaKompanija"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

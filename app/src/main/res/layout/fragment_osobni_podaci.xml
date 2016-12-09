@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Fragments.OsobniPodaciFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Korisnik ID"
+        android:id="@+id/textViewOsobniKorisnikID"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ime"
+        android:id="@+id/textViewOsobniIme"
+        android:layout_below="@+id/textViewOsobniKorisnikID"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Prezime"
+        android:id="@+id/textViewOsobniPrezime"
+        android:layout_below="@+id/textViewOsobniIme"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="E-mail:"
+        android:id="@+id/textViewOsobniMail"
+        android:layout_below="@+id/textViewOsobniPrezime"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Adresa"
+        android:id="@+id/textViewOsobniAdresa"
+        android:layout_below="@+id/textViewOsobniMail"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Grad"
+        android:id="@+id/textViewOsobniGrad"
+        android:layout_below="@+id/textViewOsobniAdresa"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="#KorisnikID"
+        android:id="@+id/textViewOsobniKorisnikIDValue"
+        android:layout_above="@+id/textViewOsobniIme"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="#Ime"
+        android:id="@+id/textViewOsobniImeValue"
+        android:layout_alignTop="@+id/textViewOsobniIme"
+        android:layout_alignEnd="@+id/textViewOsobniKorisnikIDValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="#Prezime"
+        android:id="@+id/textViewOsobniPrezimeValue"
+        android:layout_below="@+id/textViewOsobniImeValue"
+        android:layout_alignEnd="@+id/textViewOsobniImeValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="#Mail"
+        android:id="@+id/textViewOsobniMailValue"
+        android:layout_below="@+id/textViewOsobniPrezimeValue"
+        android:layout_alignEnd="@+id/textViewOsobniPrezimeValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="#Adresa"
+        android:id="@+id/textViewOsobniAdresaValue"
+        android:layout_below="@+id/textViewOsobniMailValue"
+        android:layout_alignEnd="@+id/textViewOsobniMailValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="#Grad"
+        android:id="@+id/textViewOsobniGradValue"
+        android:layout_below="@+id/textViewOsobniAdresaValue"
+        android:layout_alignEnd="@+id/textViewOsobniAdresaValue" />
+
+</RelativeLayout>

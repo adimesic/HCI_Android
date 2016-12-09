@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Pošiljke">
+    <menu>
+        <item
+            android:id="@+id/nav_posiljke_dolazne"
+            android:icon="@drawable/ic_posiljka_icon"
+            android:title="Dolazne pošiljke" />
+
+        <item
+            android:id="@+id/nav_posiljke_odlazne"
+            android:icon="@drawable/ic_posiljka_icon"
+            android:title="Odlazne posiljke" />
+    </menu>
+    </item>
+
+
+    <item android:title="Kompanije">
+        <menu>
+            <item
+                android:id="@+id/nav_kompanije"
+                android:icon="@drawable/ic_kompanije_icon2"
+                android:title="Pregled kompanija" />
+        </menu>
+    </item>
+
+    <item android:title="Primaoci">
+        <menu>
+            <item
+                android:id="@+id/nav_primaoci"
+                android:icon="@drawable/ic_primaoci_icon"
+                android:title="Pregled primaoca" />
+            
+        </menu>
+    </item>
+
+
+    <item android:title="Osobni podaci">
+        <menu>
+            <item
+                android:id="@+id/nav_profil"
+                android:icon="@drawable/ic_osobnipodaci_icon"
+                android:title="Osobni podaci" />
+        </menu>
+    </item>
+
+    <item android:title="Informacije">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="O aplikaciji" />
+        </menu>
+    </item>
+
+</menu>
